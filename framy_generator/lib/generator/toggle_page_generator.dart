@@ -48,13 +48,13 @@ class _FramyTogglePageState extends State<FramyTogglePage> {
             const FramyHeaderText('Radio'),
             RadioListTile(
               value: 'Option A',
-              onChanged: (system) => setState(() => radioState = system),
+              onChanged: (String system) => setState(() => radioState = system),
               groupValue: radioState,
               title: Text('Option A'),
             ),
             RadioListTile(
               value: 'Option B',
-              onChanged: (system) => setState(() => radioState = system),
+              onChanged: (String system) => setState(() => radioState = system),
               groupValue: radioState,
               title: Text('Option B'),
             ),
